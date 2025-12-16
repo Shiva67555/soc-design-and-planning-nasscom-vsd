@@ -32,7 +32,15 @@ The software toolchain plays a critical role in execution, where high-level prog
 
 # Software-to-Hardware Execution Flow:-
 
-An overview of how software interacts with hardware was presented: 1.Application Layer – user-level programs 2.Operating System – manages system resources and hardware interaction 3.Compiler – converts high-level code into machine instructions 4.Assembler – encodes instructions into binary format
+An overview of how software interacts with hardware was presented: 
+
+1.Application Layer – user-level programs
+
+2.Operating System – manages system resources and hardware interaction
+
+3.Compiler – converts high-level code into machine instructions
+
+4.Assembler – encodes instructions into binary format
 
 This flow establishes a direct link between application software and the processor microarchitecture.
 
@@ -193,7 +201,7 @@ Simulated CMOS inverters with ngspice, analyzed key static and dynamic parameter
 
 A CMOS inverter was simulated using Sky130 device models to understand both static and dynamic behavior. DC and transient analyses were performed using ngspice.
 
-#Static Characteristics of CMOS Inverter 
+# Static Characteristics of CMOS Inverter 
 
 # Switching Threshold 
 The input voltage at which the inverter output switches from logic high to logic low.
@@ -204,7 +212,7 @@ The maximum input voltage interpreted as logic 0.
 # Input High Voltage 
 The minimum input voltage interpreted as logic 1.
 
-#Output Low Voltage 
+# Output Low Voltage 
 The output voltage level corresponding to logic 0.
 
 # Output High Voltage 
