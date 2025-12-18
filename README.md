@@ -392,17 +392,17 @@ To extract spice netlist, input command extract all to tckon window. It extracts
 
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%20from%202025-12-11%2010-54-47.png?raw=true)
 
-          # Check current directory
-           pwd
+    # Check current directory
+    pwd
 
-          # Extraction command to extract to .ext format
-           extract all
+    # Extraction command to extract to .ext format
+    extract all
 
-          # Before converting ext to spice this command enable the parasitic extraction also
-           ext2spice cthresh 0 rthresh 0
+    # Before converting ext to spice this command enable the parasitic extraction also
+    ext2spice cthresh 0 rthresh 0
 
-          # Converting to ext to spice
-           ext2spice
+    # Converting to ext to spice
+    ext2spice
 
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%20from%202025-12-11%2011-07-35.png?raw=true)
 
@@ -461,9 +461,9 @@ To open the magic tool. Open met3.mag file from the file menu. We can see differ
 # Lab introduction to magic tool options and DRC rules
 The technology file is set if rues that declares layers, types and electrical connectivity, DRC, device extraction rules, and rules to read lef and def files. It can be sourced from opencircuitdesign.com using the below path ‘
                                         
-                           wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+    wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
                                                  
-                            tar xfz drc_tests.tgz
+    tar xfz drc_tests.tgz
                             
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%20from%202025-12-11%2012-58-43.png?raw=true)
 
@@ -563,10 +563,10 @@ Here we need to modify the config.tcl of picorv32a directory and add commands as
 
 In order to integrate standard cell into the openlane input these command in the openlane flow
 
-      prep -design picorv32a -tag 02-07_07-56 -overwrite
-        set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
-        add_lefs -src $lefs
-        run_synthesis
+    prep -design picorv32a -tag 02-07_07-56 -overwrite
+    set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+    add_lefs -src $lefs
+    run_synthesis
 
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%20from%202025-12-14%2013-39-37.png?raw=true)
 
@@ -633,6 +633,7 @@ To ensure that PDN network is generated successfully you can give variable
 The PDN primarily distributes:
 
 1.VDD (power) 
+
 2.VSS (ground) 
 
 across the core using rails and straps.
