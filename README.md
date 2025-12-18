@@ -182,14 +182,21 @@ Design preparation steps to invoke openlane
 
 To invoke open lane, first the terminal should be opened in openlane working directory. Once the path is created the openlane can be invoked by the following commands
 
-    Docker
+  Step 1: Navigate to OpenLANE Directory
+  
+    cd Desktop/work/tools/openlane_working_dir/openlane
+ 
+ Step 2: Start OpenLANE in Interactive Mode
+       
+       ./flow.tcl -interactive
+Step 3: Load OpenLANE Package
 
-    ./flow.tcl -interactive (it’s a script that specifies the details to interact with the openlane flow)
+     package require openlane 0.9
 
-     Package require openlane 0.9
+Step 4: Prepare the picorv32a Design
 
-     prep -design picorv32a
-     
+        prep -design picorv32a
+
 ![image alt](https://github.com/Gobika404/NASSCOM-VSD-SoC--design-and--Planning-Program/blob/main/Screenshot%20from%202025-12-12%2011-25-56.png?raw=true)
 
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%20from%202025-12-15%2012-55-47.png?raw=true)
