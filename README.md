@@ -688,9 +688,12 @@ Commands to load routed def in terminal
     magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.def &
 
 
-![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%202025-12-18%20165055.png?raw=true)
+![image alt](https://github.com/Shiva67555/soc-design-and-planning-vsd/blob/main/Screenshot%202025-12-18%20172136.png?raw=true)
 
-![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%202025-12-18%20170000.png?raw=true)
+![image alt](https://github.com/Shiva67555/soc-design-and-planning-vsd/blob/main/Screenshot%202025-12-18%20172208.png?raw=true)
+
+![image alt](https://github.com/Shiva67555/soc-design-and-planning-vsd/blob/main/Screenshot%202025-12-18%20172233.png?raw=true)
 
 # THANK YOU
+
 
