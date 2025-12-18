@@ -17,7 +17,7 @@ A System-on-Chip (SoC) integrates multiple components of a computer or electroni
 
 # RTL to GDSII flow
 
-![image alt]()
+![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%202025-12-18%20124752.png?raw=true)
 
 1. Synthesis: The code written by the RTL designers cannot be directly Physically implemented on the chip, so synthesis is a process where the RTL code is converted into gate-level netlist using standard cell libraries which can be easily understandable by EDA tools
 
