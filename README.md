@@ -564,8 +564,11 @@ Here we need to modify the config.tcl of picorv32a directory and add commands as
 In order to integrate standard cell into the openlane input these command in the openlane flow
 
     prep -design picorv32a -tag 02-07_07-56 -overwrite
+    
     set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+    
     add_lefs -src $lefs
+    
     run_synthesis
 
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-nasscom-vsd/blob/main/Screenshot%20from%202025-12-14%2013-39-37.png?raw=true)
