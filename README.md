@@ -694,6 +694,10 @@ Commands to load routed def in terminal
 
 ![image alt](https://github.com/Shiva67555/soc-design-and-planning-vsd/blob/main/Screenshot%202025-12-18%20172233.png?raw=true)
 
+# Conclusion
+
+This two-week workshop provided comprehensive hands-on exposure to the complete RTL to GDSII flow using open-source EDA tools. The training covered all major stages, starting from inverter design and RTL coding through synthesis, floorplanning, placement, clock tree synthesis, routing, and final GDS generation. Practical implementation helped in understanding real-world VLSI physical design challenges and design constraints. The workshop strengthened my conceptual clarity and technical skills in digital IC design. Overall, it offered valuable industry-oriented experience and a strong foundation in the RTL to GDS flow.
+
 # THANK YOU
 
 
